@@ -1,0 +1,27 @@
+{
+  "name": "advanced-cypress-tau-course",
+  "version": "1.0.0",
+  "description": "My implementation based on the Cypress advanced features from TAU",
+  "scripts": {
+    "cy:open": "./node_modules/.bin/cypress open",
+    "cy:run": "./node_modules/.bin/cypress run",
+    "start": "cd app && npm start",
+    "postinstall": "cd app && npm install"
+  },
+  "keywords": [
+    "cypress",
+    "testing",
+    "advanced"
+  ],
+  "author": "Jacques Schmitz Junior",
+  "license": "ISC",
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^1.6.0",
+    "@applitools/eyes-cypress": "^3.20.4",
+    "cypress": "^6.6.0",
+    "cypress-file-upload": "^5.0.2"
+  },
+  "dependencies": {
+    "cypress-real-events": "^1.3.0"
+  }
+}

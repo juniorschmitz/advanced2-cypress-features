@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-it('Running task', () => {
+it('Running tast', () => {
 
   cy
     .task('setupDb', {
